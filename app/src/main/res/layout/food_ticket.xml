@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="60pt"
+    android:layout_height="wrap_content"
+    android:background="@color/gray"
+    android:orientation="vertical"
+    android:padding="3pt">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        android:textAlignment="center">
+
+        <ImageView
+            android:id="@+id/ivFoodImage"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:baselineAlignBottom="false"
+            android:contentDescription="@string/todo"
+            android:textAlignment="center"
+            app:srcCompat="@drawable/espresso" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/coffee"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+    </LinearLayout>
+</LinearLayout>
